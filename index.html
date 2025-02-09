@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="form-container">
+            <div id="form-child">
+                <div id="titulo-container">
+                    <p id="titulo">Formulário</p>
+                </div>
+                <div id="pesquisa-container">
+                    <div class="text pesquisa">
+                        <p>Olá, este formulário servirá como base para uma pesquisa sobre qual é o esporte mais famoso entre os entrevistados</p>
+                    </div>
+                </div>
+                <form action="cadastro.php" method="post">
+                    <div id="form-body">
+                        <div id="nametosexo">
+                            <div id="nameandidade">
+                                <div class="input nome">
+                                    <label for="inome">Nome:</label>
+                                    <input class="green" id="inome" nome="nome" type="text" placeholder="Seu nome" required>
+                                </div>
+                                <div class="input idade">
+                                    <label for="iidade">idade:</label>
+                                    <input class="green" id="iidade" nome="idade" type="number" placeholder="Sua idade" maxlength="3" required>
+                                </div>
+                            </div>
+                                <div id="sex">
+                                    <div>
+                                        <label>Sexo:</label>
+                                    </div>
+                                    <div>
+                                        <label class="masfem" for="imasc">Masculino</label>
+                                        <input id="imasc" name="sexo" type="radio" value="masculino" checked>
+                                        <label class="masfem" for="ifemi">Feminino</label>
+                                        <input id="ifemi" name="sexo" type="radio" value="feminino">
+                                    </div>
+                    
+                                </div>
+                    
+                    
+                        </div>
+                            <div id="esporte-container">
+                                <div id="esporte-child">
+                                    
+                                        <label for="iesporte">Qual é seu esporte favorito e qual é o motivo de ser este?</label>
+                                    <textarea name="esporte" id="iesporte" rows="4" cols="50" placeholder="Escreva sobre seu esporte aqui" required ></textarea>
+                                </div>
+                            </div>
+                        <div class="input enviar">
+                            <input  class="button" type="button" value="Enviar" >
+                        </div>
+                           
+                </form>
+                    </div>
+                </div>
+        </section>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* Reset all default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Remove default list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove default anchor styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Ensure images don't overflow */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Reset form elements */
+  button, input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+  }
+  
+  /* Remove button outline on focus (optional, for better accessibility keep it) */
+  button:focus, input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
+  
+  /* Normalize heading and paragraph spacing */
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  /* Set a base font for better readability */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #333;
+  }
+  
