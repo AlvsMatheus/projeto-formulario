@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (max-width:770px){
+    div#form-child {
+        display: flex;
+        flex-flow:column nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+        height: 700px;
+        width: 390px;
+        background-color: white;
+        box-shadow: 8px 8px 0px black;
+        border: 2px solid rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        
+    }
+    form{
+        width: 380px;
+    }
+    
+}
+
+@media screen and (max-height:420px){
+
+    div#form-child {
+        display: flex;
+        flex-flow:column nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+        height: 140vh;
+        width: 760px;
+        background-color: white;
+        box-shadow: 8px 8px 0px black;
+        border: 2px solid rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        
+    }
+    form{
+        width: 750px;
+    }
+    
+}
